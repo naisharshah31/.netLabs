@@ -1,0 +1,16 @@
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\bin\Debug\netcoreapp3.1\LoginRegistrationFormApp.exe
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\bin\Debug\netcoreapp3.1\LoginRegistrationFormApp.deps.json
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\bin\Debug\netcoreapp3.1\LoginRegistrationFormApp.runtimeconfig.json
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\bin\Debug\netcoreapp3.1\LoginRegistrationFormApp.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\bin\Debug\netcoreapp3.1\LoginRegistrationFormApp.dll
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\bin\Debug\netcoreapp3.1\LoginRegistrationFormApp.pdb
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.Form1.resources
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.AssemblyInfo.cs
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.dll
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.pdb
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.genruntimeconfig.cache
+C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\obj\Debug\netcoreapp3.1\LoginRegistrationFormApp.Properties.Resources.resources
