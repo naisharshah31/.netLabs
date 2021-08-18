@@ -6,6 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
+
+
 using System.Windows.Forms;
 
 namespace LoginRegistrationFormApp
@@ -34,9 +37,6 @@ namespace LoginRegistrationFormApp
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            //Error check variable
-            int error = 0;
-
             //Getting input from controls
             String fname = txtFname.Text;
             String lname = txtLname.Text;
@@ -46,8 +46,18 @@ namespace LoginRegistrationFormApp
             String username = txtUser.Text;
             String password = txtPass.Text;
 
-            
+
             String gender = cmbGender.Text;
+
+            
+
+            
+            
+
+            //Error check variable
+            int error = 0;
+
+            
 
             //Validations
 
@@ -71,6 +81,16 @@ namespace LoginRegistrationFormApp
                 MessageBox.Show("Please fill all the details", "Error");
             } else
             {
+                SqlConnection sc = new SqlConnection();
+                SqlCommand com = new SqlCommand();
+                sc.ConnectionString = (@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\Database1.mdf;Integrated Security=True");
+                sc.Open();
+                com.Connection = sc;
+                String insetrtQuery = "INSERT INTO customer VALUES('" + username + "','" + fname + "','" + lname + "','" + address + "','" + gender + "','" + email + "','" + phone + "','" + password + "');";
+                com.CommandText = (insetrtQuery);
+                com.ExecuteNonQuery();
+                sc.Close();
+
                 MessageBox.Show("Welcome! Your account number is : 101", "Successful");
             }
 
