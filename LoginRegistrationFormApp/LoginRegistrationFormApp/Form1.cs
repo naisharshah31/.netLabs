@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-
 using System.Windows.Forms;
 
 namespace LoginRegistrationFormApp
@@ -49,10 +48,9 @@ namespace LoginRegistrationFormApp
 
             String gender = cmbGender.Text;
 
-            
 
-            
-            
+
+
 
             //Error check variable
             int error = 0;
@@ -79,19 +77,32 @@ namespace LoginRegistrationFormApp
             if (error >= 1)
             {
                 MessageBox.Show("Please fill all the details", "Error");
-            } else
-            {
+            } else {
+
+                //SQL Connection
                 SqlConnection sc = new SqlConnection();
                 SqlCommand com = new SqlCommand();
                 sc.ConnectionString = (@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Dell\source\repos\LoginRegistrationFormApp\LoginRegistrationFormApp\Database1.mdf;Integrated Security=True");
                 sc.Open();
                 com.Connection = sc;
+
+                //INSERT QUERY
                 String insetrtQuery = "INSERT INTO customer VALUES('" + username + "','" + fname + "','" + lname + "','" + address + "','" + gender + "','" + email + "','" + phone + "','" + password + "');";
                 com.CommandText = (insetrtQuery);
-                com.ExecuteNonQuery();
+                int result = com.ExecuteNonQuery();
+
+                //Output received from database after query execution
+                if (result > 0)
+                {
+                    MessageBox.Show("Welcome! Your account number is : 101", "Successful");
+                } else
+                {
+                    MessageBox.Show("Some Error ", "Failure");
+                }
+
                 sc.Close();
 
-                MessageBox.Show("Welcome! Your account number is : 101", "Successful");
+                
             }
 
 

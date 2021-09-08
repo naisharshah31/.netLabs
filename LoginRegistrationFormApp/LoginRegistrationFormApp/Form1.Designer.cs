@@ -47,6 +47,8 @@ namespace LoginRegistrationFormApp
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.btnRegister = new System.Windows.Forms.Button();
+            this.studentgrid = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.studentgrid)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -207,12 +209,22 @@ namespace LoginRegistrationFormApp
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
+            // studentgrid
+            // 
+            this.studentgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.studentgrid.Location = new System.Drawing.Point(522, 353);
+            this.studentgrid.Name = "studentgrid";
+            this.studentgrid.RowTemplate.Height = 25;
+            this.studentgrid.Size = new System.Drawing.Size(347, 177);
+            this.studentgrid.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(912, 572);
+            this.Controls.Add(this.studentgrid);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
@@ -233,6 +245,7 @@ namespace LoginRegistrationFormApp
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Standard Bank | Login and Re";
+            ((System.ComponentModel.ISupportInitialize)(this.studentgrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,6 +271,7 @@ namespace LoginRegistrationFormApp
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.DataGridView studentgrid;
     }
 }
 
