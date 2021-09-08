@@ -1,0 +1,12 @@
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\bin\Debug\primeMoviesLabTest.exe.config
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\bin\Debug\primeMoviesLabTest.exe
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\bin\Debug\primeMoviesLabTest.pdb
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\obj\Debug\primeMoviesLabTest.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\obj\Debug\primeMoviesLabTest.Form1.resources
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\obj\Debug\primeMoviesLabTest.Properties.Resources.resources
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\obj\Debug\primeMoviesLabTest.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\obj\Debug\primeMoviesLabTest.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\obj\Debug\primeMoviesLabTest.exe
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\obj\Debug\primeMoviesLabTest.pdb
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\bin\Debug\primeMovies.mdf
+C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\bin\Debug\primeMovies_log.ldf
