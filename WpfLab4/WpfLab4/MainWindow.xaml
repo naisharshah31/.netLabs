@@ -7,6 +7,38 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Naishar Shah" HorizontalAlignment="Left" Margin="539,10,0,0" VerticalAlignment="Top" Height="137" Width="327" FontSize="40" />
+        <Button x:Name="Register" Content="Register" HorizontalAlignment="Left" Margin="325,323,0,0" VerticalAlignment="Top" Height="42" Width="129" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="4"/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform Angle="10"/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="Account Number :" HorizontalAlignment="Left" Margin="34,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="100"/>
+                    <TranslateTransform X="0" Y="0"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="300101021150" HorizontalAlignment="Left" Margin="183,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="30"/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
 
     </Grid>
 </Window>
