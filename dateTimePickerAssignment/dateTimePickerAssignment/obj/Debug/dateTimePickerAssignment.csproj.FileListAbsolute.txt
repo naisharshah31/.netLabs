@@ -1,0 +1,10 @@
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\bin\Debug\dateTimePickerAssignment.exe.config
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\bin\Debug\dateTimePickerAssignment.exe
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\bin\Debug\dateTimePickerAssignment.pdb
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\obj\Debug\dateTimePickerAssignment.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\obj\Debug\dateTimePickerAssignment.Form1.resources
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\obj\Debug\dateTimePickerAssignment.Properties.Resources.resources
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\obj\Debug\dateTimePickerAssignment.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\obj\Debug\dateTimePickerAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\obj\Debug\dateTimePickerAssignment.exe
+C:\Users\Dell\source\repos\dateTimePickerAssignment\dateTimePickerAssignment\obj\Debug\dateTimePickerAssignment.pdb

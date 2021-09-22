@@ -25,6 +25,7 @@ namespace primeMoviesLabTest
             sc.ConnectionString = (@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Dell\source\repos\primeMoviesLabTest\primeMoviesLabTest\primeMovies.mdf;Integrated Security=True");
             sc.Open();
             com.Connection = sc;
+            dtpDOB.MaxDate = DateTime.Now;
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -50,7 +51,10 @@ namespace primeMoviesLabTest
             String gender = cmbGender.Text;
             String username = txtUsername.Text;
             String password = txtPassword.Text;
+            
             string dt = dtpDOB.Value.ToShortDateString();
+
+
             int userExist = -1;
             int error = 0;
 
